@@ -18,7 +18,6 @@ Parameters:
 
 The function is expecting a roomId(Can be an integer or string) which represents the unique ID of the room.
 
-
 Returns:
 
 true if the room was added successfully.A room element with roomID,status and guestName details will be created.
@@ -37,6 +36,7 @@ Retrieves the name of the guest occupying the room that the user is checking.
 Parameters:
 
 The function is expecting a roomId (Can be an integer or string) which represents the unique ID of the room.
+
 Returns:
 
 Guest name if the room is occupied.
