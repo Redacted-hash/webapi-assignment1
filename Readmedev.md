@@ -4,7 +4,11 @@ This module simulates a hotel room management system using an array to simulate 
 
 In this readme file, describe how to use your node module. It could be similar to **app.js** from Lab2, where you call some functions in your node module and display the output. Describe how to setup your node module, if any. Describe how to call the functions, what parameters required and so on.
 
-##addRoom
+## Preparation
+```js
+
+```
+## addRoom
 Purpose:
 Adds a new room to the array.
 
@@ -12,10 +16,13 @@ Parameters:
 The function is expecting a roomId(Can be an integer or string) which represents the unique ID of the room.
 
 Returns:
-true if room was added successfully.
+true if the room was added successfully.A room element with roomID,status and guestName details will be created.
 
-false if roomId is missing or already exists.
+false if the roomId is missing or already exists.
 
+```js
+hotel.addGuestToRoom("M01", "Alice");
+```
 
 ##getGuestName
 
