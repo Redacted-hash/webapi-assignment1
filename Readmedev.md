@@ -1,6 +1,6 @@
 # Assignment 1 : Hotel Management
 
-This module simulates a hotel room management system using an array to simulate the manipulation of data.
+This module simulates a hotel room management system using an array to simulate the manipulation of data. It contains functions to add new rooms, retrieve the guest names living in a occupied room, retrieve list of available rooms that are vacant, remove guests from their room, get the total number of existing rooms, and assign guests to a room. 
 
 In this readme file, describe how to use your node module. It could be similar to **app.js** from Lab2, where you call some functions in your node module and display the output. Describe how to setup your node module, if any. Describe how to call the functions, what parameters required and so on.
 
