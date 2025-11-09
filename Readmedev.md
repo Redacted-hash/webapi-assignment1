@@ -10,9 +10,11 @@ In this readme file, describe how to use your node module. It could be similar t
 ```
 ## addRoom
 Purpose:
+
 Adds a new room to the array.
 
 Parameters:
+
 The function is expecting a roomId(Can be an integer or string) which represents the unique ID of the room.
 
 Returns:
