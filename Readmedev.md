@@ -18,6 +18,7 @@ Parameters:
 
 The function is expecting a roomId(Can be an integer or string) which represents the unique ID of the room.
 
+
 Returns:
 
 true if the room was added successfully.A room element with roomID,status and guestName details will be created.
