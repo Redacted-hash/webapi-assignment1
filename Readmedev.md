@@ -27,15 +27,15 @@ false if the roomId is missing or already exists.
 hotel.addGuestToRoom("M01", "Alice");
 ```
 
-##getGuestName
+## getGuestName
 
-##getAvailableRooms
+## getAvailableRooms
 
-##guestRemoval
+## guestRemoval
 
-##getNumberOfRooms
+## getNumberOfRooms
 
-##addGuestToRoom 
+## addGuestToRoom 
 
 For some tips in formatting text in readme file, refer to https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
