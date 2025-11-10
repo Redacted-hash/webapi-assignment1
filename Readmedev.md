@@ -24,6 +24,8 @@ true if the room was added successfully.A room element with roomID,status and gu
 
 false if the roomId is missing or already exists.
 
+Usage :
+
 ```js
 htlmanagement.addRoom("H01");
 ```
@@ -43,11 +45,26 @@ Guest name if the room is occupied.
 
 false if the room is vacant or does not exist.
 
+Usage :
+
 ```js
 htlmanagement.getGuestName("H01");
 ```
 
 ## getAvailableRooms
+Purpose:
+
+To return a list of all the rooms that are currently vacant.
+
+Returns:
+
+An array of room objects with status "vacant".
+
+Usage :
+
+```js
+console.log(hotel.getAvailableRooms());
+```
 
 ## guestRemoval
 
