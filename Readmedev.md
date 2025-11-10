@@ -51,6 +51,13 @@ Usage :
 console.log(htlmanagement.getGuestName("H01"));
 ```
 
+Output :
+
+//Assuming the name of the guest name added to room H01 is Alice
+```powershell
+Alice
+```
+
 ## getAvailableRooms
 Purpose:
 
@@ -64,6 +71,12 @@ Usage :
 
 ```js
 console.log(htlmanagement.getAvailableRooms());
+```
+
+Output :
+
+```powershell
+[ { roomId: H01, status: 'vacant', guestName: null } ]
 ```
 
 ## guestRemoval
@@ -104,6 +117,14 @@ Usage:
   console.log(hotel.getNumberOfRooms());
 ```
 
+Output:
+
+Depends on the number of existing rooms, but will show up as an integer
+
+```powershell
+1
+```
+
 ## addGuestToRoom 
 
 Purpose:
@@ -126,8 +147,3 @@ Usage:
 ```js
 console.log(htlmanagement.addGuestToRoom(101, "Alice"));
 ```
-
-For some tips in formatting text in readme file, refer to https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
-
-# References
-Provide the references that you have used to support your assignment. 
