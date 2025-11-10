@@ -53,7 +53,7 @@ console.log(htlmanagement.getGuestName("H01"));
 
 Output :
 
-//Assuming the name of the guest name added to room H01 is Alice
+Assuming the name of the guest name added to room H01 is Alice
 ```powershell
 Alice
 ```
