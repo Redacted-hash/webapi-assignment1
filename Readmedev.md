@@ -68,6 +68,20 @@ console.log(hotel.getAvailableRooms());
 
 ## guestRemoval
 
+Purpose:
+
+Removes a guest from a previously occupied room and marks the status as vacant.
+
+Parameters:
+
+The function is expecting a roomId(Can be an integer or string) which represents the unique ID of the room.
+
+Returns:
+
+true if the room is found and guest name will become null.
+
+false if the room does not exist.
+
 ## getNumberOfRooms
 
 ## addGuestToRoom 
