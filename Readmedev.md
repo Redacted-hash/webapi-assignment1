@@ -27,7 +27,7 @@ false if the roomId is missing or already exists.
 Usage :
 
 ```js
-htlmanagement.addRoom("H01");
+console.log(htlmanagement.addRoom("H01"));
 ```
 
 ## getGuestName
@@ -48,7 +48,7 @@ false if the room is vacant or does not exist.
 Usage :
 
 ```js
-htlmanagement.getGuestName("H01");
+console.log(htlmanagement.getGuestName("H01"));
 ```
 
 ## getAvailableRooms
@@ -63,7 +63,7 @@ An array of room objects with status "vacant".
 Usage :
 
 ```js
-console.log(hotel.getAvailableRooms());
+console.log(htlmanagement.getAvailableRooms());
 ```
 
 ## guestRemoval
@@ -82,9 +82,50 @@ true if the room is found and guest name will become null.
 
 false if the room does not exist.
 
+Usage: 
+
+```js
+console.log(htlmanagement.guestRemoval(101));
+```
+
 ## getNumberOfRooms
 
+Purpose:
+
+Retrieves the total number of rooms created in the system.
+
+Returns:
+
+Number of rooms as an integer.
+
+Usage:
+
+```js
+  console.log(hotel.getNumberOfRooms());
+```
+
 ## addGuestToRoom 
+
+Purpose:
+
+Assigns a guest to an existing vacant room.
+
+Parameters:
+
+1. The function is expecting a roomId(Can be an integer or string) which represents the unique ID of the room.
+
+2. guestName (string): Name of the guest.
+
+Returns:
+
+true if guest successfully added.
+
+false if room doesn’t exist, is occupied, or guest name is missing.
+
+Usage:
+```js
+console.log(htlmanagement.addGuestToRoom(101, "Alice"));
+```
 
 For some tips in formatting text in readme file, refer to https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
