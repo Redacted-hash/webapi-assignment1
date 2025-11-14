@@ -17,15 +17,13 @@ Create an app.js file . Use the require function to link the relevant node modul
 const htlmanagement = require('./limqirong_hotelmanagement.js');
 ```
 ## Testing 
-If you wish to test out the functions, you may add the following lines of code below the htlmanagement variable.
+If you wish to test out the functions, you may add the following lines of code below the htlmanagement variable in the app.js file. To start the test type in node app.js in the terminal.Ensure that the terminal has the correct path to the file when typing the command.
 
 ```js
-const htlmanagement = require('./limqirong_hotelmanagement.js');
-
 // Add rooms 
 htlmanagement.addRoom(101);
 htlmanagement.addRoom(102);
-htlmanagement.addRoom(101); // duplicate — will return false
+htlmanagement.addRoom(101); // duplicate — will return false(output will not appear on terminal) 
 htlmanagement.addRoom(104);
 
 // Add guest to the specified room
