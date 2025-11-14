@@ -4,6 +4,13 @@ This module simulates a hotel room management system using an array to simulate 
 
 In this readme file, describe how to use your node module. It could be similar to **app.js** from Lab2, where you call some functions in your node module and display the output. Describe how to setup your node module, if any. Describe how to call the functions, what parameters required and so on.
 
+
+## Installation
+Install Node JS: https://nodejs.org/en/ . Download the [LTS] version.
+After installation, open command prompt and type the command 
+
+node -v. You should see the version number of the Node JS that you have just installed. Please note that the version number might be different at the time of installation.
+
 ## Preparation
 Create an app.js file . Use the require function to link the relevant node module. Put the following line of code at the first line of the file.
 ```js
