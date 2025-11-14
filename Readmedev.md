@@ -16,6 +16,11 @@ Create an app.js file . Use the require function to link the relevant node modul
 ```js
 const htlmanagement = require('./limqirong_hotelmanagement.js');
 ```
+## Testing 
+If you wish to test out the functions, you may add the following lines of code below the htlmanagement variable.
+
+```js
+```
 ## addRoom
 Purpose:
 
