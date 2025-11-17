@@ -12,12 +12,12 @@ After installation, open command prompt and type the command
 node -v. You should see the version number of the Node JS that you have just installed. Please note that the version number might be different at the time of installation.
 
 ## Preparation
-Create an app.js file . Use the require function to link the relevant node module. Put the following line of code at the first line of the file.
+This is for the recreation of an app.js file for testing . Use the require function to link the relevant node module. Put the following line of code at the first line of the file.
 ```js
 const htlmanagement = require('./limqirong_hotelmanagement.js');
 ```
 ## Testing 
-If you wish to test out the functions, you may add the following lines of code below the htlmanagement variable in the app.js file. To start the test, type in [node app.js]() in the terminal.Ensure that the terminal has the correct path to the file when typing the command.
+If you wish recreate the app.js file to test out the functions, you may add the following lines of code below the htlmanagement variable in the app.js file. To start the test, type [node app.js]() in the terminal.Ensure that the terminal has the correct path to the file when typing the command.
 
 ```js
 // Add rooms 
