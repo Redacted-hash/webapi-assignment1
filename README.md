@@ -189,4 +189,4 @@ console.log(htlmanagement.addGuestToRoom(101, "Alice"));
 
 ## References
 
-[PoliteMall](https://nyplms.polite.edu.sg/d2l/home/)
+[PoliteMall](https://nyplms.polite.edu.sg/)
